@@ -45,7 +45,7 @@ h1{
     display: none;
 }
 
-.menu{
+#menu{
     width:40%;
     height:40%;
     background-color: rgb(215, 250, 244);
@@ -58,7 +58,7 @@ h1{
 
 }
 
-.about{
+#about{
     width:40%;
     height:40%;
     background-color: rgb(215, 250, 244);
@@ -68,10 +68,10 @@ h1{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
+    text-align: center;
 }
 
-.contact{
+#contact{
     width:40%;
     height:40%;
     background-color: rgb(215, 250, 244);

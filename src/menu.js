@@ -4,7 +4,9 @@ const menu = function showMenu(){
 
     const menucard = document.createElement('div');
 
-    menucard.classList.add('menu');
+
+    menucard.classList.add('mainCard2');
+    menucard.setAttribute('id','menu');
 
     const menuitems = document.createElement('div');
     

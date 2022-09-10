@@ -5,8 +5,9 @@ const about = function showAbout(){
 
     const aboutcard = document.createElement('div');
 
-    aboutcard.classList.add('about');
-    aboutcard.innerText = 'About Us';
+    aboutcard.classList.add('mainCard2');
+    aboutcard.setAttribute('id','about');
+    aboutcard.innerHTML = '<h1>  About Us</h1>';
 
     mainspace.appendChild(aboutcard);
 }

@@ -5,7 +5,8 @@ const contact = function showContact(){
 
     const contactcard = document.createElement('div');
 
-    contactcard.classList.add('contact');
+    contactcard.classList.add('mainCard2');
+    contactcard.setAttribute('id','contact');
 
     mainspace.appendChild(contactcard);
 }

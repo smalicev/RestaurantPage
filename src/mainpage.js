@@ -11,13 +11,13 @@ maintent.classList.add('maintent');
 header.classList.add('header');
 
 const mainCard3 = document.createElement('div');
-mainCard3.classList.add('mainCard2');
+mainCard3.classList.add('mainCard3');
 mainCard3.innerHTML = '<p>Photo by Marc Pell on <a href="https://unsplash.com/@blinky264"> Unsplash</a></p>';
 const mainCard2 = document.createElement('div');
-mainCard2.classList.add('mainCard2');
+mainCard2.classList.add('introtext');
 mainCard2.innerHTML = '<h1>FROM BRANCH TO TABLE</h1>';
 const mainCard4 = document.createElement('div');
-mainCard4.classList.add('placeholder');
+mainCard4.classList.add('mainCard2');
 mainCard4.innerHTML = '';
 
 const mainCard = document.createElement('div');
