@@ -12,18 +12,18 @@ const menubut = document.querySelector('#menubut')
 const refr = document.querySelector('.mainCard')
 
 menubut.addEventListener('click', function(e){
-    refr.removeChild(refr.firstElementChild)
+    refr.children[1].remove();
     menu();
 });
 
 const aboutbut = document.querySelector('#aboutbut')
 aboutbut.addEventListener('click', function(e){
-    refr.removeChild(refr.firstElementChild)
+    refr.children[1].remove();
     about();
 });
 
 const contactbut = document.querySelector('#contactbut')
 contactbut.addEventListener('click', function(e){
-    refr.removeChild(refr.firstElementChild)
+    refr.children[1].remove();
     contact();
 });
